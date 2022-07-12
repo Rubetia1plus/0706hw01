@@ -34,6 +34,7 @@
 </head>
 
 <body>
+<div class="header">
 <header style="margin-block-start: 0em;
             	margin-block-end: 0em;
             	font-size: 5em;
@@ -41,7 +42,8 @@
             	color: white;">
 	Welcome!
 </header>
-
+</div>
+<div class="nav">
 <nav>
 	<ul class="flex_nav">
 		<li style="width:33.3%;">
@@ -61,42 +63,55 @@
 		
 	</ul>
 </nav>
-
-<section>
-<p style="font-size: 4rem;
+</div>
+<div class="body">
+	<style>
+			.body{
+				display: flex;
+				justify-content: center;
+				height: 600px;
+			}
+		    .delta{border-width: 60px;
+		 		   border-style: solid;
+		  	  	   border-color: transparent transparent red transparent;
+		  		   height: 1px;
+		  		   width: 1px;
+		  		   margin: 6em;
+		  		   display: inline-block;
+				}
+			.circle{
+				border-radius: 60px;
+		  		border-style: solid;
+		  		border-color: yellow;
+		  		background-color: yellow;
+		  		height: 60px;
+		  		width: 60px;
+		  		margin: 6em;
+		560	display: inline-block;
+			}
+		</style>
+	<table>
+	<p style="font-size: 4rem;
 		  margin-bottom:-3.5rem ;">
 	歡迎光臨，此為首頁
 </p>
-</section>
-	
-<section>
-<p style="border-width: 60px;
-		  border-style: solid;
-		  border-color: transparent transparent red transparent;
-		  height: 1px;
-		  width: 1px;
-		  display: inline-block;">
+	<tb>
+	<div class="delta"></div>
+	</tb>
+	<tb>
+	<div class="circle"></div>
+	</tb>
+</table> 
+</div>
 
-</p>
-<p style="border-radius: 60px;
-		  border-style: solid;
-		  border-color: yellow;
-		  background-color: yellow;
-		  height: 60px;
-		  width: 60px;
-		  margin: 1.5em;
-		  display: inline-block;"></p>
-</section>
-
-<footer>
-<address>聯絡我<br>
-	<li>
-	<a href="Mailto:runemimo@gmail.com"><img src='Gmail_icon_(2020).svg.png' width="2.5%"></a>
-	<a href="https://www.facebook.com/kevin.chu.96780671/"><img src='2021_Facebook_icon.svg.png' width="2.5%"></a>
-	<a href="https://twitter.com/Lojin63308076"><img src='Twitter-logo.svg.png' width="2.5%"></a>
+<div class="footer">
+<table style="background: black;">
+	<li style="background:black;" >
+	<a href="Mailto:runemimo@gmail.com"><img src='Gmail_icon_(2020).svg.png'width="2%"></a>
+	<a href="https://www.facebook.com/kevin.chu.96780671/"><img src='2021_Facebook_icon.svg.png' width="2%"></a>
+	<a href="https://twitter.com/Lojin63308076"><img src='Twitter-logo.svg.png' width="2%"></a>
 </li>
-</address>
-</footer>
-	
+</table>	
+</div>
 </body>
 

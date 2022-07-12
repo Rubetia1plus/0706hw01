@@ -5,44 +5,92 @@
 	<meta charset="utf-8">
 	<title>我是</title>
 	<style>
-		li{display: inline-block;}
 
+		li{display: inline-block;}
+		header{
+			color: black;
+		}
+		nav a{
+			font-size: 1.2rem;
+			display: block;
+			color: inherit;
+			text-decoration: none;
+		}
+		nav a:hover{
+			background-color: rgb(115, 115, 115);
+    		color: white;
+		}
+		nav>ul{
+			background-color: rgb(230, 230, 230);
+    		list-style: none;   
+    		margin: 0;
+    		padding: 0;
+		}
+		.flex_nav{
+			display: flex;
+			justify-content: center;
+		}
 	</style>
 </head>
 
 <body>
-<header>
-<h1>Welcome!</h1>
-<hr>
+<header style="margin-block-start: 0em;
+            	margin-block-end: 0em;
+            	font-size: 5em;
+            	background-color: black;
+            	color: white;">
+	Welcome!
 </header>
 
 <nav>
-<li style="width:13%">
-<a href="#me">關於我</a> 
-</li>
-<li style="width:13%">
-<a href="#add">聯絡我</a>
-</li>
+	<ul class="flex_nav">
+		<li style="width:25%;">
+		<a href="https://rubetia1plus.github.io/0706hw01/">Home</a> 
+		</li>
+		<li style="width:25%;">
+		<a href="aboutme.html">關於我</a>
+		</li>
+		<li style="width:25%;">
+		<a href="">施工中</a>
+		<li style="width:25%;">
+		<a href="https://www.youtube.com/watch?v=2x33fVB3iNs&ab_channel=%E3%81%97%E3%82%89%E3%81%A8%E3%82%8A">萬聖節快樂?</a>
+		</li>
+	</ul>
 </nav>
 
 <section>
-<p id="me"></p>
-<p>
-<h2>關於我</h2>
-我來自新北市，畢業於新北高工，目前就讀國立勤益科技大學。
+<p style="font-size: 4rem;
+		  margin-bottom:-3.5rem ;">
+	歡迎來到我的網頁
 </p>
 </section>
-
+	
 <section>
-<p>
+<p style="border-width: 60px;
+		  border-style: solid;
+		  border-color: transparent transparent red transparent;
+		  height: 1px;
+		  width: 1px;
+		  display: inline-block;">
 
 </p>
+<p style="border-radius: 60px;
+		  border-style: solid;
+		  border-color: yellow;
+		  background-color: yellow;
+		  height: 60px;
+		  width: 60px;
+		  margin: 1.5em;
+		  display: inline-block;"></p>
 </section>
 
 <footer>
-<p id="add"></p>
 <address>聯絡我<br>
-	<a href="Mailto:runemimo@gmail.com">電子郵件</a>
+	<li>
+	<a href="Mailto:runemimo@gmail.com"><img src='Gmail_icon_(2020).svg.png' width="2.5%"></a>
+	<a href="https://www.facebook.com/kevin.chu.96780671/"><img src='2021_Facebook_icon.svg.png' width="2.5%"></a>
+	<a href="https://twitter.com/Lojin63308076"><img src='Twitter-logo.svg.png' width="2.5%"></a>
+</li>
 </address>
 </footer>
 	
